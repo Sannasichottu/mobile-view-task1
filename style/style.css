@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&display=swap"); /* h4 text */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@600;700&display=swap"); /* h1 text */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap"); /* sec1-p2 */
+
+/* header */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+.header {
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/129/883/652/headphones-yellow-background-music-wallpaper-preview.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.header h4 {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: left;
+  margin-left: 10rem;
+}
+.header h1 {
+  text-align: left;
+  margin-left: 10rem;
+  font-family: "Arimo", sans-serif;
+  font-size: 45px;
+}
+
+img {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.header-btn {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+  font-size: 0;
+  margin-left: 13rem;
+}
+.header-btn button {
+  padding: 15px 30px 15px 30px;
+  border-radius: 15px;
+  color: black;
+  background-color: white;
+  border-color: #fff;
+}
+
+/* seaction1 */
+.seaction1 {
+  padding-top: 50rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  padding-bottom: 30px;
+}
+
+.sec1-p1 {
+  font-size: 25px;
+}
+
+.sec1-p2 {
+  text-indent: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* seaction-2 */
+.seaction2 {
+  background-color: #fac769;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.sec2-h2 {
+  color: white;
+  text-align: center;
+  font-family: "Arimo", sans-serif;
+  font-size: 35px;
+}
+
+.sec2-p1 {
+  padding-top: 40px;
+  font-size: 25px;
+  margin-left: 8rem;
+}
+
+/* seaction 3 */
+
+.seaction3 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.sec3-card1,
+.sec3-card2,
+.sec3-card3 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.card1,
+.card2,
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 3 0%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sec3-para {
+  padding: 2px 16px;
+  background-color: #fac769;
+
+  padding-top: 3px;
+}
+
+.sec3-para h4 {
+  font-style: normal;
+  font-size: 14px;
+}
+
+.sec3-para p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+/* section 4 */
+
+.crd-pro1,
+.crd-pro2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 12rem;
+  height: 12rem;
+}
+
+.crd-pro-pic {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* section 5 */
+
+.seaction5 {
+  background-color: #fac769;
+  padding-top: 15px;
+}
+
+.sec5-p5 {
+  color: white;
+  margin-left: 15rem;
+}
+
+.sec5-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.sec5-h5 {
+  padding-bottom: 20px;
+  color: #fff;
+  margin-left: 15rem;
+  font-family: "Arimo", sans-serif;
+  font-size: 40px;
+}
+
+.sec5-btn button {
+  padding: 15px 30px 15px 30px;
+  border-radius: 20px;
+  color: black;
+  background-color: white;
+  margin-left: 10rem;
+  border-color: #fff;
+}
+
+/* seaction 6 */
+
+.seaction6 {
+  margin-top: 5rem;
+}
+
+.sec6-head {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+}
